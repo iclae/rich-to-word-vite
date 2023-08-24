@@ -1,0 +1,49 @@
+{
+  "name": "rich-to-word-vite",
+  "version": "0.1.0",
+  "description": "rich-to-word for vite",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iclae/rich-to-word-vite.git"
+  },
+  "authors": [
+    "iclae0@gmail.com"
+  ],
+  "keywords": [
+    "rich text",
+    "docx",
+    "word",
+    "vite"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "rich-to-word": "^0.1.0"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "browserify-fs": "^1.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "encoding": "^0.1.13",
+    "https-browserify": "^1.0.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.1",
+    "util": "^0.12.5",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
