@@ -10,7 +10,7 @@ specifiers:
   https-browserify: ^1.0.0
   path-browserify: ^1.0.1
   process: ^0.11.10
-  rich-to-word: ^0.1.0
+  rich-to-word: ^0.1.1
   stream-browserify: ^3.0.0
   stream-http: ^3.2.0
   url: ^0.11.1
@@ -19,7 +19,7 @@ specifiers:
   webpack-cli: ^5.1.4
 
 dependencies:
-  rich-to-word: 0.1.0_encoding@0.1.13
+  rich-to-word: 0.1.1_encoding@0.1.13
 
 devDependencies:
   assert: 2.0.0
@@ -1581,8 +1581,8 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rich-to-word/0.1.0_encoding@0.1.13:
-    resolution: {integrity: sha512-uud20PomQOf7AX38X93rAbcIWzI7xw5SVYLXkSunQUB85etEk36Xl8eMmlyqU4/XbxQxApiiAaB8ll/PMxZftA==}
+  /rich-to-word/0.1.1_encoding@0.1.13:
+    resolution: {integrity: sha512-bDXs+G3m4hGpHyCLFTOQZTQVh49XJ6tji4ZKqhF5wW/id+R/7dVwtGjcGgmUPwhFDRk7+s/jnyCxYQ9LfmIEqg==}
     dependencies:
       '@babel/runtime': 7.22.10
       file-saver: 2.0.5

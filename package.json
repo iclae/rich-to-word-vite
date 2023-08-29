@@ -4,7 +4,8 @@
   "description": "rich-to-word for vite",
   "main": "dist/main.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "release": "pnpm run build && pnpm publish"
   },
   "repository": {
     "type": "git",
